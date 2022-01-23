@@ -9,7 +9,7 @@ body{
     padding: 38px 0 48px;
 }
 
-.header_flex, .footer_flex, .about{
+.header_flex, .footer_flex, .about, .index, .iten_flex{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -101,11 +101,11 @@ body{
     margin-bottom: 50px;
 }
 
-.button_violet1{
+.button_violet{
     background-color: #5454D4;
 }
 
-.button_violet1:hover{
+.button_violet:hover{
     background-color: #5e5eca; 
     transition: 500ms;
 }
@@ -121,6 +121,139 @@ body{
     background-color: #5e5eca; 
     transition: 500ms;
 }
+
+/* Section2 */
+
+.about_index{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 57px;
+    letter-spacing: -1.56316px;
+    color: #19191B;
+    margin-bottom: 35px;
+}
+
+.email_form{
+    width: 302px;
+    height: 60px;
+    border: 1px solid #7087FF;
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding-left: 14px;
+    margin-right: 39px;
+}
+
+.email_form::placeholder, .email_form{
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 22px;
+    letter-spacing: -0.531474px;
+    color: #000000;
+}
+
+.email_form:focus{
+    outline: none;  
+}
+
+.index{
+    margin-bottom: 85px;
+}
+
+/* plan */
+
+.plan{
+    margin-bottom: 132px;
+}
+
+.plan_title{
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 70px;
+    letter-spacing: -1.87579px;
+    color: #19191B;
+    max-width: 504px;
+    margin-bottom: 110px
+}
+
+.iten{
+    width: 330px;
+    background-color:#F8F8F8;
+    border-radius: 10px;
+    text-align: center;
+    padding: 34px 0 27px;
+}
+
+.iten:hover{
+    background: #FF7143;
+    box-shadow: 0px 32px 34px rgba(255, 112, 59, 0.317827);
+    transition: 500ms;
+}
+
+.iten_text{
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: -0.562737px;
+    color: #696871;
+    margin-bottom: 32px;
+}
+
+.iten:hover .iten_text, .iten:hover .iten_titel, .iten:hover .iten_li { 
+    color: white;
+    transition: 500ms
+}
+
+.iten_titel{
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 56px;
+    text-align: center;
+    letter-spacing: -1.03448px;
+
+    color: #1D293F;
+
+    margin-bottom: 32px;
+}
+
+.iten_titel span{
+    font-size: 28px;
+}
+
+.iten_li{
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 50px;
+    text-align: center;
+    letter-spacing: -0.531474px;
+    color: #696871;
+    list-style: none;
+}
+
+.button_iten{
+    width: 285px;
+    background-color: white;
+    color: #5454D4;
+
+}
+
+.iten:hover .button_iten { 
+    background-color: #9F3919;
+    color: white;
+    transition: 500ms;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 /* footer */
 .footer{ 
